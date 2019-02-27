@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+@font-face{
+  font-family:'digital-clock-font';
+  src: url('%PUBLIC_URL%/src/fonts/digital.ttf'), local('digital-clock-font'), format('ttf')
+ }
+
+.base{
+  background-color:aliceblue ;
+  width: 75vw;
+  margin:auto;
+  margin-top: 5vh;
+  min-height: 90vh;
+  display: table;
+  text-align: center;
+  border-top-left-radius: 15pt;
+  border-top-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  border-bottom-right-radius: 15pt;
+  
+}
+
+.botaoCategoria{
+  display: table-row;
+  max-height: 5vh;
+  vertical-align: middle;
+}
+
+.pergunta{
+  background-color: #2a7fff;
+  padding: 10pt;
+  max-width: 50vw;
+  border-top-left-radius: 15pt;
+  border-top-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  border-bottom-right-radius: 15pt;
+  margin: auto;
+  color: aliceblue;
+  cursor: pointer;
+}
+.categoria{
+  background-color: #2a7fff;
+  padding: 10pt;
+  max-width: 50vw;
+  border-top-left-radius: 15pt;
+  border-top-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  border-bottom-right-radius: 15pt;
+  margin: auto;
+  margin-top: 10pt;   
+  color: aliceblue;
+  cursor: pointer;
+}
+.categoriaButton{
+  padding: 10pt;
+  max-width: 50vw;
+  border-top-left-radius: 15pt;
+  border-top-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  border-bottom-right-radius: 15pt;
+}
+
+.resposta{
+  background-color: #d5f6ff;
+  padding: 10pt;
+  max-width: 50vw;
+  margin: auto;
+  border-top-left-radius: 15pt;
+  border-top-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  border-bottom-right-radius: 15pt;
+  cursor: pointer;
+}
+.voltar{
+  background-color: #ffe680;
+  padding: 10pt;
+  max-width: 50vw;
+  margin: auto;
+  margin-top: 5pt; 
+  border-top-left-radius: 15pt;
+  border-top-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  border-bottom-right-radius: 15pt;
+  cursor: pointer;
+}
+
+.grupoTimer{
+width: 15vw;
+padding:10pt;
+padding-top: 15pt;
+padding-bottom: 15pt;
+margin: auto;
+background-color: dimgray;
+border-top-left-radius: 15pt;
+border-top-right-radius: 15pt;
+border-bottom-left-radius: 15pt;
+border-bottom-right-radius: 15pt;
+}
+.botoesTimer{
+  display: table
+}
+.botaoTimer{
+  background-color: orangered;
+  color: #d5f6ff;
+  padding: 5pt;
+  border-top-left-radius: 15pt;
+  border-top-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  border-bottom-right-radius: 15pt;
+  width: 100%;
+  margin-top: 2pt;
+  margin-bottom: -10pt;
+  cursor: pointer;
+}
+
+
+.contador {
+  background-color: darkslategray;
+  color: chartreuse;
+  font-family: Impact ;
+  font-size: 35pt;
+  max-width: auto;
+  margin: auto;
+  margin-top: -10pt;
+  margin-bottom: 0pt;
+  border-top-left-radius: 15pt;
+  border-top-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  border-bottom-right-radius: 15pt
+}
